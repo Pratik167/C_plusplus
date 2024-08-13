@@ -45,7 +45,7 @@ public:
     }
     void display()
 	{
-        cout << km << " kilometers and " << m << " meters" << std::endl;
+        cout << km << " kilometers and " << m << " meters" << endl;
     }
 };
 
