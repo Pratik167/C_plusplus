@@ -60,10 +60,12 @@ int main()
     d2.input();
 
     d3 = d1 + d2;
-
+    cout<< "First distance ";
+    d1.display();
+    cout<<endl<<"Second distance ";
+    d2.display();
     cout << "\nSum of distances: ";
     d3.display();
 
     return 0;
 }
-
